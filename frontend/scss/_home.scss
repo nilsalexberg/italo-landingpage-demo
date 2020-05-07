@@ -1,0 +1,183 @@
+.home {
+  header {
+    background: url(../images/bg-header.png), url(../images/bg-header-small.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 720px;
+  }
+
+  .newsletter {
+    .lead {
+      font-weight: 500;
+      font-size: 24px;
+    }
+
+    input {
+      border: none;
+      background-color: rgba(0, 0, 0, 0.1);
+      color: white;
+      padding: 20px;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+
+    .btn {
+      font-weight: 500;
+      padding: 20px 30px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  .presencial {
+    table {
+      border-bottom: 1px solid #dee2e6;
+
+      td {
+        padding: 30px 0;
+      }
+    }
+
+    a {
+      font-weight: 500;
+    }
+  }
+
+  .guerrilha-way {
+    background: url(../images/bg-guerrilha-way.png), url(../images/bg-guerrilha-way-small.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 720px;
+
+    .gw-logo {
+      width: 380px;
+    }
+
+    .btn {
+      padding: 16px 30px;
+    }
+  }
+
+  .masterclass-carousel {
+    .item {
+      height: 550px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 40px 20px;
+
+      h4 {
+        font-size: 36px;
+      }
+    }
+  }
+  
+  .courses {
+    .course {
+      text-align: left;
+      height: 360px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      padding: 40px 50% 30px 40px;
+
+      h4 {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .lives {
+    .youtube-logo {
+      width: 128px;
+    }
+
+    .fa-play-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 80px;
+      color: white;
+    }
+
+    a {
+      font-weight: 500;
+    }
+  }
+
+  .ebooks {
+    img {
+      margin-bottom: 20px;
+    }
+    .ebook-title {
+      font-size: 20px;
+      font-weight: 500;
+      padding-right: 50px;
+    }
+  }
+
+  .blog {
+    .card {
+      border: none;
+      border-radius: 0;
+
+      .card-body {
+        padding: 40px 180px 40px 40px;
+      }
+    }
+  }
+
+  footer {
+    background: #d7184d;
+    
+    .newsletter {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .ebook {
+      width: 110px;
+    }
+
+    .download-app {
+      width: 150px;
+    }
+
+    .footer-link {
+      opacity: 0.6;
+      display: block;
+      color: white;
+      margin: 6px 0;
+    }
+
+    small {
+      opacity: 0.6;
+      font-size: 12px;
+    }
+
+    .social-links {
+      display: flex;
+
+      a {
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 24px;
+        border-radius: 60px;
+        color: white;
+      }
+    }
+  }
+}
