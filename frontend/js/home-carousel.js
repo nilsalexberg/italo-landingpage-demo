@@ -5,7 +5,7 @@ $(document).ready(function(){
     loop: true,
     margin: 10,
     responsive: {
-      600: {
+      768: {
         items: 4
       }
     }
