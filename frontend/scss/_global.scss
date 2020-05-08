@@ -59,6 +59,34 @@ nav.navbar {
       color: #24282d;
     }
   }
+
+  .navbar-toggler {
+    color: white;
+    border: none;
+  }
+
+  .navbar-collapse.collapse.show {
+    @media screen and (max-width: 991px) {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: #d7184d;
+      padding: 20px;
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  }
+
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 a:hover {
