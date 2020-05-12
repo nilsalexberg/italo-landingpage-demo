@@ -1,0 +1,54 @@
+.page-masterclass {
+  nav.navbar {
+    &.with-bg {
+      background-color: rgba(0,0,0,0.5)!important
+    }
+  }
+
+  header {
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(../images/bg-header-masterclass.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .guerrilha-way {
+    background: url(../images/bg-masterclass-middle.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .italo {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(50%);
+      width: 300px;
+    }
+  }
+
+  .faq {
+    .accordion {
+      .card {
+        border: none;
+
+        .card-header {
+          background: none;
+          padding: 0;
+          border-bottom: 0;
+          
+          .btn {
+            padding: 12px 0;
+          }
+        }
+
+        .card-body {
+          padding: 12px 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    background: #5396b9;
+  }
+}
