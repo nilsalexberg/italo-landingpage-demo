@@ -1,15 +1,11 @@
-.page-masterclass {
-  .btn-info {
+.page-guerrilha-way {
+  .btn-danger {
     padding: 16px 30px;
   }
 
-  header {
-    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(../images/bg-header-masterclass.jpg);
-    background-size: cover;
-    background-position: center;
-
-    @media screen and (max-width: 575px) {
-      min-height: 640px;
+  .bg-danger {
+    .text-secondary {
+      color: rgba(255, 255, 255, 0.6) !important;
     }
   }
 
@@ -30,9 +26,5 @@
         width: 300px;
       }
     }
-  }
-
-  footer {
-    background: #5396b9;
   }
 }
