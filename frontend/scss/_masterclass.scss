@@ -3,12 +3,6 @@
     padding: 16px 30px;
   }
 
-  nav.navbar {
-    &.with-bg {
-      background-color: rgba(0,0,0,0.5)!important
-    }
-  }
-
   header {
     background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(../images/bg-header-masterclass.jpg);
     background-size: cover;
@@ -20,7 +14,7 @@
   }
 
   .guerrilha-way {
-    background: url(../images/bg-masterclass-middle.jpg);
+    background: url(../images/bg-black.jpg);
     background-size: cover;
     background-position: center;
     position: relative;

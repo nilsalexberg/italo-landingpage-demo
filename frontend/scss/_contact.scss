@@ -1,0 +1,17 @@
+.page-contact {
+  header {
+    background: url(../images/bg-black.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 440px;
+  }
+
+  form {
+    .form-control,
+    button {
+      padding: 12px;
+      min-height: 50px;
+      border-radius: 4px;
+    }
+  }
+}
