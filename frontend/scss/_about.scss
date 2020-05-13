@@ -1,0 +1,24 @@
+.page-about {
+  nav.navbar {
+    &.with-bg {
+      background-color: rgba(0,0,0,0.5)!important
+    }
+  }
+  
+  header {
+    position: relative;
+    background: url(../images/bg-header-about.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .fa-ul {
+    li {
+      margin-bottom: 16px;
+
+      i {
+        color: #d7184d;
+      }
+    }
+  }
+}
