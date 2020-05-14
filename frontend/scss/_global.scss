@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
   background: black;
 }
 
+.bg-danger {
+  background: #d7184d !important;
+}
+
 .btn {
   font-weight: 500;
 }
@@ -88,7 +92,7 @@ a:hover {
 }
 
 div.card-img-top {
-  height: 450px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -109,4 +113,8 @@ div.card-img-top {
       font-size: 28px;
     }
   }
+}
+
+.lead {
+  font-size: 24px;
 }
